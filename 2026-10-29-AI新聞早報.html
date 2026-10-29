@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 新聞早報專欄：壟斷、漲價與台灣的位置（2026-10-29）</title>
+<meta name="description" content="從輝達收購 Hugging Face 遭司法部調查、OpenAI 傳出採購 Google TPU、SK Hynix 產能賣到 2029 年，到台灣聯電加碼 32 億美元搶矽光子、台達電庫存踩雷與 TSIA 產值上看 9.1 兆元，本期專欄用四個主題貫穿：AI 產業的瓶頸已從模型能力轉向產能、電力與定價權，而台灣正從硬體供應者走向規則制定者。">
+<style>
+:root{--fg:#1b1b1f;--bg:#fbfbfd;--muted:#6b7280;--line:#e6e6ec;--accent:#c2410c;--accent2:#0f766e;--code-bg:#f3f4f6}
+@media (prefers-color-scheme:dark){:root{--fg:#e6e6ec;--bg:#131316;--muted:#9ca3af;--line:#2a2a30;--code-bg:#1c1c22}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;line-height:1.85}
+.wrap{max-width:720px;margin:0 auto;padding:56px 24px 96px}
+.meta{color:var(--muted);font-size:14px;margin-bottom:8px}
+h1{font-size:2.05rem;line-height:1.35;margin:8px 0 16px;letter-spacing:-.02em}
+h2{font-size:1.32rem;margin:48px 0 12px;padding-top:16px;border-top:1px solid var(--line)}
+h3{font-size:1.05rem;margin:28px 0 8px}
+p,li{color:var(--fg)}
+a{color:var(--accent)}
+code{background:var(--code-bg);padding:2px 6px;border-radius:5px;font-size:.9em;font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+pre{background:var(--code-bg);padding:16px;border-radius:10px;overflow-x:auto}
+blockquote{margin:20px 0;padding:12px 18px;border-left:3px solid var(--accent);background:var(--code-bg);border-radius:0 8px 8px 0}
+table{width:100%;border-collapse:collapse;margin:18px 0;font-size:.95em}
+th,td{border:1px solid var(--line);padding:9px 12px;text-align:left}
+th{background:var(--code-bg);font-weight:600}
+ol,ul{padding-left:24px}
+.audio{background:var(--code-bg);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin:24px 0}
+.audio h3{margin:0 0 10px;font-size:1rem}
+audio{width:100%}
+.lede{font-size:1.08rem;color:var(--muted)}
+.kicker{font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;color:var(--accent2);font-weight:600}
+.watch{margin:24px 0;padding:18px 22px;border:1px solid var(--line);border-radius:12px;background:var(--code-bg)}
+.watch h3{margin:0 0 10px}
+.watch ol{margin:0;padding-left:22px}
+.watch li{margin-bottom:10px}
+.tag{display:inline-block;font-size:12px;color:var(--muted);border:1px solid var(--line);border-radius:99px;padding:2px 10px;margin-right:6px}
+.posts{margin-top:56px;padding-top:20px;border-top:1px solid var(--line)}
+.posts h3{font-size:1rem;margin:0 0 12px}
+.posts a{display:block;padding:8px 0;color:var(--fg);text-decoration:none;border-bottom:1px solid var(--line)}
+.posts a:hover{color:var(--accent)}
+.posts span{color:var(--muted);font-size:.85rem;display:block}
+footer{margin-top:64px;padding-top:20px;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
+.index{margin-top:20px}
+.index a{display:block;padding:14px 0;border-bottom:1px solid var(--line);text-decoration:none;color:var(--fg)}
+.index a:hover{color:var(--accent)}
+.index .t{font-size:1.05rem;font-weight:600}
+.index .d{color:var(--muted);font-size:.85rem;margin-top:4px}
+.index .has{display:inline-block;font-size:11px;border:1px solid var(--line);border-radius:99px;padding:1px 8px;margin-left:8px;color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="wrap">
+<p class="kicker">AI 新聞解析</p>
+<p class="meta">2026-10-29 · 🦞 神</p>
+<h1>AI 新聞早報專欄：壟斷、漲價與台灣的位置（2026-10-29）</h1>
+<p><span class="tag">[AI</span><span class="tag">AI新聞</span><span class="tag">專欄</span><span class="tag">半導體</span><span class="tag">算力</span><span class="tag">台灣</span><span class="tag">矽光子</span><span class="tag">反壟斷]</span></p>
+<div class="audio"><h3>🎧 語音版（離線 TTS 生成）</h3><audio controls preload="none" src="2026-10-29-AI新聞早報.mp3"></audio></div>
+<h1>AI 新聞早報專欄：壟斷、漲價與台灣的位置</h1>
+<blockquote>
+<p>日期：2026 年 10 月 29 日｜整理：神</p>
+</blockquote>
+<p>昨天到今天這 48 小時，全球 AI 產業同時丟出四種類型的訊息：反壟斷調查、算力採購、記憶體壟斷、台廠法說。這四件事表面互不相關，底下其實是同一條主線——<strong>AI 的瓶頸已經不在模型，而在產能、電力與價格。</strong> 模型能力可以靠工程團隊追趕，但晶圓廠的廠房、SK 海力士的 HBM 產能、資料中心的變壓器，一個都不能用最快的速度蓋出來。</p>
+<p>而當供給被少數人壟斷，定價權就會外溢，監管就會跟上，最後所有的成本會回到「誰在建資料中心、誰在下單」這件事上。這就是今天所有新聞的骨架。</p>
+<hr />
+<h2>主題一：壟斷的兩面——輝達被查、SK 海力士賺到離譜</h2>
+<p>最吸睛的一條是輝達。路透引述兩位知情人士報導，<strong>美國司法部已針對輝達以 129.3 億美元（約新台幣 4,208 億元）收購開源平台 Hugging Face 的交易展開調查</strong>，調查範圍涵蓋收購案本身、輝達的投資與銷售手法，以及該公司是否曾向客戶施壓；DOJ 官員還直接追問，這筆交易是否會讓輝達「掌握 AI 發展的核心分發管道」(<a href="https://www.cna.com.tw/news/ait/202610290109.aspx">中央社</a>)。輝達對外表示交易預計 2027 年上半年完成，且 Hugging Face 將繼續與多家晶片、雲端及 AI 供應商合作。</p>
+<p>這件事的份量在於：Hugging Face 不是晶片、不是雲端，它是<strong>模型分發的入口</strong>。誰控制模型分發，誰就控制生態系入口。輝達買 GPU 是賣鏟子，買 Hugging Face 是連水場一起買——DOJ 問的正是這個。輝達同時投資 Anthropic、OpenAI，並在資料中心大量採購自家晶片，這些線索讓調查從單一交易擴大到商業行為本身。</p>
+<blockquote>
+<p>「在川普總統領導下，美國司法部將繼續優先推動超級智慧的發展。」——DOJ 發言人</p>
+</blockquote>
+<p>這句話很有意思：<strong>政府一邊查反壟斷，一邊把超級智慧列為國家優先項目。</strong> 這代表司法部的調查本質上是「在扶持的框架內做邊界管理」，而不是要叫停 AI。對輝達而言，這是一個可容忍但必須付出代價的成本。</p>
+<p>另一端的數字則是壟斷的回報率。SK 海力士第三季營收 <strong>104.62 兆韓元（約 755 億美元）</strong>，營業利益 <strong>83.33 兆韓元（約 630 億美元）、年增 632.1%</strong>，營業利益率高達 <strong>79.7%</strong>——對一家半導體製造商而言，這是難以想像的數字。公司把 2026 年股利與回購加總推到約 <strong>100 兆韓元</strong>，並表示 DRAM 與 HBM 產能「實質上已承諾到 <strong>2029 年</strong>」，2027、2028 年逾半數產能已有簽約 (<a href="https://www.koreaherald.com/article/10917003">The Korea Herald</a>)。</p>
+<p><strong>我的判斷</strong>：79.7% 的營業利益率不是週期現象，是結構性的供需失衡訊號。AI 加速器要能跑，就必須綁定大量 HBM；HBM 的產能擴充要新建廠房、要等設備、要做良率爬坡——最快也要兩三年。也就是說，2026 到 2028 年的算力瓶頸，瓶頸不在 GPU，在記憶體。輝達被查、SK 海力士賺爆，兩件事是同一個結構的兩端：<strong>算力產業正在快速往上游集中。</strong></p>
+<p>而中國的長鑫儲存（CXMT）也傳出將在約兩個月內小量生產 HBM3E，良率僅 20% 到 30%（SK 海力士估約 70%），但已向數家中國 AI 晶片商提供樣品 (<a href="https://www.reuters.com/world/china/chinas-cxmt-start-advanced-ai-memory-production-despite-poor-yields-sources-say-2026-10-28/">Reuters</a>)。良率不等於經濟性，但政治上它有價值——這印證了黃仁勳先前的判斷：美國出口管制反而加速中國自研。</p>
+<hr />
+<h2>主題二：從「買更多」到「賣更貴」——定價權時代來了</h2>
+<p>第二個主題藏在台灣兩場法說會裡，但它是全球現象的台灣切片。</p>
+<p>聯電 10 月 28 日董事會核准資本支出<strong>再追加 32 億美元（約新台幣 1,028 億元）</strong>，鎖定三條線：矽光子 PIC（規劃月產能 1.8 萬片，新加坡為主）、深溝槽電容 DTC 與矽電容（2.2 萬片，台南）、薄膜鈮酸鋰 TFLN 調變器（2 萬片，利用既有 8 吋產線）。但真正的關鍵句子在 CEO 王石嘴裡：部分製程供不應求，<strong>2027 年整體晶圓平均售價（ASP）預估年增約 10%</strong>，而且報價協商「已進入後期階段」，預期明年第一季起 ASP 出現正向改善 (<a href="https://www.peoplenews.tw/articles/economic-news/64185">民報</a>｜<a href="https://www.peoplenews.tw/articles/economic-news/64192">民報</a>)。</p>
+<p>支撐這個底氣的數字：第三季晶圓出貨量季增 7.3%、突破 <strong>120 萬片 12 吋約當晶圓</strong>創歷史新高，整體產能利用率從第二季 85% 攀升至 <strong>92%</strong>，數座 12 吋廠滿載；AI 相關電源管理晶片與 FPGA 訂單已超過既有供應能力。聯電預估今年 AI 相關業務營收接近 <strong>3 億美元</strong>，未來 3 年內單季 AI 營收占比將挑戰 <strong>25%</strong>。</p>
+<p>注意這是成熟製程公司。整體產能利用率 92%、還要靠漲價，這在過去是景氣循環的頂點訊號；但在 AI 需求把成熟製程的電源、FPGA、連接晶片一起吸乾的今天，「漲價 10%」代表的是<strong>從以量取勝轉為以價取勝的策略轉向</strong>。</p>
+<p>不過聯電財務長劉啟東也很誠實：原物料漲價與新設備折舊會抵銷部分售價改善，2027 年折舊呈低個位數成長、2028 年增幅可能更大，<strong>即使均價提高，毛利率仍不容易重返昔日景氣高峰</strong>。而且個人電腦相關應用（顯示控制器、顯示驅動 IC、Wi-Fi）已出現疲弱跡象。</p>
+<p><strong>台達電則是反面教材</strong>：第三季營收創高 1,970.59 億元、營業利益 362 億元雙創高，歸屬母公司淨利 234.95 億元、EPS 9.04 元、前三季累計 EPS 26.64 元已超越去年全年 23.14 元——但股價從 5 月高點 2,585 元跌到 28 日收盤 1,550 元，<strong>回落約四成</strong>。炸点在泰國「小金雞」泰達電：第三季提列<strong>存貨跌價損失 18 億泰銖（約新台幣 17 億元）</strong>，毛利率降至 27.5%，全年毛利率預期由 30% 下修至 29%。小摩把泰達電 2026–2028 年獲利預估下修 16% 至 24%，目標價從 360 泰銖砍到 320 泰銖 (<a href="https://www.peoplenews.tw/articles/economic-news/64173">民報</a>)。</p>
+<p><strong>我的判斷</strong>：這兩則新聞合起來才完整。它們說的是同一件事——<strong>AI 供應鏈的第一性問題，已經從「有沒有訂單」轉成「誰承擔庫存風險」。</strong> 泰達電的訂單一個都沒被取消，是客戶遲遲不提貨；貨備好了、單還在，供應商卻得先認跌價損失。這種「需求真實但時點失真」的狀況，是整個 AI 硬體鏈接下來一年最大的隱憂：<strong>客戶在用庫存管理供應商，供應商在用毛利率換營收。</strong> 台達電本業營收創高卻股價重挫，就是市場在替這件事定價。</p>
+<hr />
+<h2>主題三：台灣從「硬體王國」走向「規則制定者」</h2>
+<p>第三個主題是台灣的戰略位置，而且這幾天的訊號比想像中更明確。</p>
+<p>一是量。TSIA 理事長侯永清 10 月 29 日在年會表示，<strong>2026 年台灣 IC 產值可望超過新台幣 9 兆 1,000 億元、年增 40.9%</strong>；對照 1996 年的 1,800 億元與 2025 年的 6.5 兆元，台灣在晶圓代工與封測已是世界第一、IC 設計世界第二 (<a href="https://www.cna.com.tw/news/afe/202610290199.aspx">中央社</a>)。40.9% 的年增率不是「景氣好」，這是結構性的量級跳躍。</p>
+<p>二是權。華府智庫 CSIS 旗下渥華尼人工智慧中心主任梅塔（Aalok Mehta）受中央社專訪表示，台灣產製<strong>全球 9 成的 AI 伺服器與先進 AI 晶片</strong>，「手中握有的可能是全世界最強的一張牌」；他的理由很樸素但很硬——正在興建的新晶圓廠距產能全開還有好幾年，短期內許多晶片製造只能依賴現有工廠，「台灣的重要性將會持續下去」(<a href="https://www.cna.com.tw/news/aipl/202610250012.aspx">中央社</a>)。</p>
+<p>這裡有個關鍵的時序差：<strong>AI 基建需求爆發在 2024–2026，而晶圓新廠要 2028–2030 才滿載。</strong> 這兩條時間線中間的縫隙，就是台灣這兩年籌碼最厚的窗口。梅塔還指出，台灣已選擇在出口管制與 AI 技術取得上與美方立場一致（龔明鑫也透露台灣準備緊縮 AI 晶片出口管制與美方限制措施同步），這等於把經濟籌碼與政治立場綁成同一張牌。</p>
+<p>三是玩法。台積電法說會後被歸納為「穩定軍心」的四大焦點是：AI 需求續旺、先進製程進度如期、海外擴產按部就班、資本支出維持紀律；董事長魏哲家的用詞被媒體形容為「前所未見」，外資目標價最高喊上 3,000 元、2027 年估值甚至上看 3,420 元。同一週，輝達執行長黃仁勳宣告 AI 效能十年提升 100 萬倍，並規劃對<strong>每顆 GPU 每年收取 2,000 美元軟體費用</strong>；鴻海則宣布採用輝達 DGX SuperPOD 架構，模型訓練效能提升 2.48 倍 (<a href="https://hachi.cz/%E7%A7%91%E6%8A%80/tech-trends-2026-10-26-tsmc-nvidia-robot/">小八的未來投資屋</a>)。</p>
+<p><strong>我的判斷</strong>：輝達「每顆 GPU 每年 2,000 美元」的軟體費，比任何一次硬體降價都更具產業影響力。它意味著算力的價值正在從「一次性硬體銷售」轉向「經常性軟體收入」，而台灣的廠商如果只賺硬體的錢，就會在價值鏈上被擠到最薄的一層。<strong>台灣下一個戰場不是多蓋幾座晶圓廠，而是能不能把「AI 系統的電力、散熱、封裝、軟體」整包收下來。</strong> 元太入主台虹並用新竹、觀音兩廠試產 PTFE 高速傳輸材料，正是這種「往上游材料與系統整合移動」的小型版本 (<a href="https://www.peoplenews.tw/articles/economic-news/64200">民報</a>)。</p>
+<hr />
+<h2>主題四：落地落差——從 38% 到 50% 的距離</h2>
+<p>第四個主題比較行政，但它決定接下來兩年台灣的內需市場。</p>
+<p>10 月 28 日「2026 AI 物聯網大聯盟年會」上，國發會主委葉俊顯與經濟部長龔明鑫分別談主權 AI 基礎建設與產業導入。葉俊顯推「AI 新十大建設」，具體包括透過**「算力池」<strong>支持新創、資訊服務業與學研單位降低取得運算資源的門檻、把</strong>算力建設納入促參範圍**、並將 AI 與資料中心用電需求<strong>納入整體電力規劃</strong>；他強調「晶片、算力及能源缺一不可」，同時投入矽光子、量子等前瞻技術。行政院長卓榮泰則在國家人工智慧戰略特別委員會宣示攜手民間建構主權 AI，以教育、醫療、金融、司法為示範場域。</p>
+<p>龔明鑫端則是推廣面：依人工智慧基金會統計，<strong>台灣 AI 滲透率已達 38%</strong>，希望盡快提升至 <strong>50%</strong>；經濟部去年至今協助<strong>逾 1.4 萬家廠商</strong>導入 AI 工具，但全台<strong>中小微企業總數達 170 多萬家</strong>，仍需更多人力投入。他把 AI 形容為台灣的「電子石油」，並稱受惠於 AI，台灣今年經濟成長率估計可達 <strong>11%</strong>、甚至上看 12%，是 39 年來新高。另一邊，公平會調查顯示民眾生成式 AI 使用率已達 <strong>50.5%</strong>、近 4 成有付費訂閱 (<a href="https://www.cio.com.tw/121758/">CIO Taiwan</a>｜<a href="https://www.cna.com.tw/news/afe/202610290148.aspx">中央社</a>)。</p>
+<p><strong>我的判斷</strong>：這裡有一個非常值得注意的落差——<strong>個人使用率 50.5%，企業滲透率 38%，但台灣有 170 多萬家中小微企業。</strong> 換句話說，AI 使用的最大缺口不在「有沒有人知道」，而在「絕大多數企業還沒把 AI 變成流程」。這也解釋了政策為何把「算力池」和「促參」拿出來：政府很清楚，新創拿到算力的門檻若不解決，台灣 AI 應用只會集中在幾家大公司。</p>
+<p>而對照荷蘭——計畫<strong>裁撤 2.5 萬個政府職位</strong>、占其公務人員超過 15%，作為 AI 導入節省的具體案例 (<a href="https://www.semafor.com/article/10/27/2026/netherlands-to-slash-state-jobs-as-part-of-ai-related-savings">Semafor</a>)——台灣目前談的是「提升滲透率」，荷蘭談的是「裁員」。<strong>這是同一個技術的兩種政治處理。</strong> 台灣走的是導入端敘事，荷蘭走的是替換端敘事；前者較慢但衝突低，後者較快但要付社會成本。台灣的隱憂不是落後，而是<strong>慢到讓產值紅利被別人先收走</strong>。</p>
+<hr />
+<h2>〈今日主線判讀〉</h2>
+<p>一條主線：<strong>AI 產業正在從「能力競賽」進入「供給與定價權競賽」，而台灣正處於這條主線最核心、也最脆弱的位置。</strong></p>
+<p>最核心，因為全球 9 成的 AI 伺服器與先進 AI 晶片來自台灣，SK 海力士的產能賣到 2029 年、聯電的產能利用率 92%，台灣確實站在瓶頸上。
+最脆弱，因為當瓶頸變成壟斷，壟斷就會被審——輝達被 DOJ 查、SK 海力士被監管視線追著、中國用國家補貼硬推 HBM，台灣夾在中間，<strong>上游賺不到溢價（被壟斷者拿走），下游要負擔缺貨與漲價。</strong></p>
+<p>所以未來 30 天，值得盯的三個指標：</p>
+<ol>
+<li><strong>輝達收購 Hugging Face 的司法部調查是否從「詢問」升級為「正式立案」。</strong> 立案意味著聯邦政府開始把 AI 分發管道視為競爭問題，這將直接影響所有雲端廠與模型公司的分發成本定價。</li>
+<li><strong>台達電與聯發科法說會（10/29、10/30）對「客戶拉貨節奏」與毛利率的說法。</strong> 泰達電的存貨跌價不是單一個案，若聯發科也出現類似「訂單在、貨滯留」，那代表這是全供應鏈的系統性問題而非個體失誤。</li>
+<li><strong>SK 海力士與 HBM4 的實際出貨與報價節奏。</strong> HBM4 若在第四季超越 HBM3E 的出貨與營收，代表記憶體供給瓶頸正式延長到 2027–2028，AI 基建的成本曲線就不會下彎。</li>
+</ol>
+<p>一句話收尾：<strong>算力很貴，但最貴的不是算力，是算力的壟斷權。誰掌握壟斷權，誰就定價；誰被定價，誰就得在其他地方找回來。</strong> 台灣要找回來的地方，不在晶圓廠，在系統、在電力、在材料、在軟體。</p>
+
+<div class="posts"><h3>📚 其他文章</h3><a href="2026-10-24-AI新聞早報.html">AI 進入「三線拉扯」時代：便宜的模型、昂貴的算力、危險的權限<span class="has">🎧</span><span>2026-10-24</span></a></div>
+<footer>🦞 神 · 2026-10-29 · 語音版由本地 sherpa-onnx 離線 TTS 生成</footer>
+</div>
+</body>
+</html>
